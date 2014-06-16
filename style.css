@@ -1,0 +1,315 @@
+/*
+   Theme Name: BurghBears
+   Theme URI: http://wordpress.org/extend/themes/twentyeleven
+   Author: Tim Broadwater
+   Author URI: http://www.timbroadwater.com
+   Description: A 2012 Theme for the Burgh Bears, a non-profit social group for bears and their admirers.
+   Version: 1.3
+   Tags: bears, bear flag, Pittsburgh
+*/
+
+
+/* Desktop Version */
+
+
+
+@media screen {
+
+
+
+.image4mobile {}
+
+
+
+body {margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; background-image: url("images/bpbg.png"); background-color:#000000; background-repeat: repeat-x;}
+
+
+
+.galtext1 {font-family: Arial;}
+
+.ngg-album-compact h4 {font-family: Arial;}
+
+
+
+.page {margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; background-image: url("images/bpbg.png"); background-color:#cecece; background-repeat: repeat-x;}
+
+
+
+#bgimage {background-image: url("images/bgrepeat.jpg"); background-position: center top; background-repeat: repeat-x; width: 100%; float:left;}
+
+
+
+#container {width:960px; height:auto; margin:0 auto;}
+
+
+
+#header {width:960px; height:125px; float:left;}
+
+
+
+#menu {width:960px; height:53px; float:left;}
+
+#menu ul {display: block; list-style-image: none; padding-left: 0; width: 960px;}
+
+#menu li {display: inline; float: left; text-align: center;}
+
+#menu a {
+
+    color: #FFC400;
+
+    display: block;
+
+    font-family: Arial,Helvetica,sans-serif;
+
+    font-size: 1.1em;
+
+    padding-bottom: 15px;
+
+    padding-top: 10px;
+
+    text-decoration: none;
+
+    width: 120px;
+
+background-image: url("images/65bg.png");
+
+}
+
+
+
+#menu a:hover {
+
+    color: #ffffff;
+
+background-color:#000000;
+
+    display: block;
+
+    font-family: Arial,Helvetica,sans-serif;
+
+    font-size: 1.1em;
+
+    padding-bottom: 15px;
+
+    padding-top: 10px;
+
+    text-decoration: none;
+
+    width: 120px;
+
+}
+
+
+
+#feature {width:960px; height:343px; float:left; background-image: url("images/65bg.png"); margin-top:39px;}
+
+#text {width:270px; padding-left:40px; float:left; height:323px; padding-top:20px; padding-right:50px; color:#ffffff; font-family:Arial; font-size:1em; line-height:1.5em;}
+
+#text a {color:#FFC400; text-decoration:none;}
+
+#text a:hover {color:#FFC400; text-decoration:underline;}
+
+#text form {padding-top:20px;}
+
+#slideshow {width:598px; float:left; height:343px; background-color:#FFC400; padding:1px;}
+
+
+
+#hpfeeds {width:960px; height:289px; float:left; background-color:#ffffff; margin-top:36px;}
+
+
+
+.camera_wrap .camera_pag .camera_pag_ul li {margin: 10px 5px !important;}
+
+
+
+#news {width:270px; padding-left:40px; float:left; height:274px; padding-top:15px; padding-right:50px; font-family:Arial;}
+
+#news ul {list-type:none; padding-left:0px;}
+
+#news li {padding-bottom:15px; list-style:none;}
+
+#news a {color:#cc9900; text-decoration:none;}
+
+#news a:hover {color:#FFC400; text-decoration:underline;}
+
+
+
+#events {width:560px; float:left; height:343px; font-family:Arial; height:269px; padding-top:20px; padding-right:40px;}
+
+
+
+#events ul {list-style:none; padding-left:0px;}
+
+#events li {border-bottom: 1px solid #999999; padding: 0 0 10px !important;}
+
+#events h3 {font-size:1em;}
+
+#events a {color:#cc9900; text-decoration:none;}
+
+#events a:hover {color:#FFC400; text-decoration:underline;}
+
+
+
+#content {width:960px; height:auto; float:left; background-color:#ffffff; margin-top:39px;}
+
+#lcontent {width:260px; height:auto; float:left; padding-top: 20px; font-family: Arial;}
+
+#lcontent ul {list-style: none; padding-right: 30px;}
+
+#lcontent ul ul {list-style: none; padding-left: 0px;}
+
+#lcontent a {color:#cc9900; text-decoration: none;}
+
+#lcontent a:hover {color:#FFC400; text-decoration: underline;}
+
+#lcontent h3 {font-size: 1em;}
+
+#lcontent span {font-size: .5em;}
+
+
+
+.screen-reader-text {display:none;}
+
+
+
+#rcontent {float: left; height: auto; padding-bottom: 30px; padding-right: 40px; padding-top: 10px; width: 660px;}
+
+#rcontent p {font-family: Arial; color:#000000; font-size: 0.85em; line-height: 1.5em;}
+
+#rcontent h1 {color:#ffc400; font-family: Arial; font-size: 2em;}
+
+#rcontent h2 {color:#000000; font-family: Arial; font-size: 1.5em;}
+
+#rcontent li {font-family: Arial; color:#000000; font-size: 0.85em; line-height: 1.5em;}
+
+#rcontent a {color:#cc9900; text-decoration: none; font-weight: normal;}
+
+#rcontent a:hover {color:#FFC400; text-decoration: underline; font-weight: normal;}
+
+
+
+#footerwrap {background-color:#000000; background-image: url("images/yellow.png"); background-position: center top; background-repeat: repeat-x; width: 100%; float:left; height:auto;}
+
+#footer {height: 50px; margin: 0 auto; padding-bottom: 30px; padding-top: 30px; width: 960px;}
+
+#footer1 {width:440px; height:auto; float:left; font-family: Arial; color:#ffffff; font-size: 0.65em; padding-left: 40px; line-height: 1.3em;}
+
+#footer1 a {color:#ffcb08; text-decoration: none;}
+
+#footer1 a:hover {color:#ffcb08; text-decoration: underline;}
+
+#footer2 {float: left; height: auto; padding-right: 40px; text-align: right; width: 440px;}
+
+#footer2 img {padding-left:10px;}
+
+
+
+.next, .previous, .when, .sbdd {font-family:Arial; font-size: 0.65em; line-height: 1.3em;}
+
+.event-day {font-family:Arial; font-size: 1em;}
+
+.imem img {float:left; padding-right: 20px; margin-bottom:20px;}
+
+.imem {display:block; padding-bottom:20px; vertical-alignment:top; font-family:Arial; margin-bottom:20px;}
+
+
+
+#menu li[title="desktop"] {display:inline;}
+
+#menu li[title="mobile"] {display:none;}
+
+
+
+#slideshow h2 {display:none;}
+
+
+
+html body div#bgimage div#container div#hpfeeds div#events ul.xoxo li#events-list-widget-5.widget-container ul.upcoming div.when br {display:none;}
+
+
+
+#cntctfrm_contact_form input.text, #cntctfrm_contact_form textarea, #cntctfrm_contact_message, #cntctfrm_contact_name, #cntctfrm_contact_email, #cntctfrm_contact_subject {width: 260px !important; margin: 0px 0px 20px 0px !important;}
+
+
+
+
+
+.wpu-about {font-family: Arial; color:#000000; font-size: 0.85em; line-height: 1.5em;}
+
+.wpu-id {color:#000000; font-family: Arial; font-size: 1.5em;}
+
+
+
+}
+
+
+
+/* SmartPhone Version */
+
+
+
+@media only screen and (max-width: 480px) {
+.image4mobile {width:100%;}
+body {background-color:#cecece; background-image:none;}
+#container {width:300px; height:auto; margin:0 auto;}
+#header {width:300px; height:105px; float:left;}
+#header img {width:300px; height:115px;}
+#menu {width:300px; height:auto; float:left;}
+#menu ul {width:300px;}
+#menu a {width:300px;}
+#menu a:hover {width:300px;}
+#feature {background-color: #FFFFFF; background-image: none; float: left; height: auto; margin-top: 0; width: 300px;}
+#slideshow {display:none;}
+
+#text {color: #000000; float: left; font-family: Arial; font-size: 1em; height: auto; line-height: 1.5em; padding-left: 20px; padding-right: 0; padding-top: 20px; width: 260px;}
+
+#hpfeeds {background-color: #FFFFFF; float: left; height: auto; margin-top: 0; width: 300px;}
+
+#news {float: left; font-family: Arial; height: auto; padding-left: 20px; padding-right: 0; padding-top: 0; width: 260px;}
+
+#events {float: left; font-family: Arial; height: auto; padding: 0 0 20px 20px; width: 260px;}
+
+#footer {width:300px;}
+
+#footer1 {padding-left: 0; width: 300px;}
+
+#footer2 {display:none;}
+
+#lcontent {display:none;}
+
+#content {margin-top: 0; width: 300px;}
+
+#rcontent {padding: 0px 0px 20px 20px; width: 260px;}
+
+.page {background-image:none;}
+
+img[title="2011 Pride T-Shirt"] {width:260px; height:133px}
+
+.summary img {display:none;}
+
+.column[itemprop="location"] {display:none;}
+
+#menu li[title="desktop"] {display:none;}
+
+#menu li[title="mobile"] {display:inline;}
+
+#tribe-events-calendar-header {display: none;}
+
+.tribe-events-events .tribe-events-event-entry[itemprop="description"] {width:100%;}
+
+.tribe-events-events .tribe-events-event-list-meta {display:none;}
+
+#tribe-events-content.upcoming {padding:0px 0px 0px 0px;}
+
+.galtext1 {font-family: Arial;}
+
+.ngg-album-compact h4 {font-family: Arial;}
+
+img[title="2012shirt"] {width:200px; height:237px;}
+
+select {width:260px;}
+
+
+
+}
